@@ -1,0 +1,4 @@
+style=/home/danilo/.config/wofi/style.css
+allow_images=false
+width=500
+height=400

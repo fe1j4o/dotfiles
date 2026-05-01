@@ -1,0 +1,5 @@
+#!/bin/bash
+wal -i "$1"
+hyprctl hyprpaper wallpaper ",$1"
+pkill waybar && waybar &
+pkill dunst && dunst &
