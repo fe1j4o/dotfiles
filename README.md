@@ -15,7 +15,6 @@ Arch Linux + Hyprland configuration files.
 
 ## Install dependencies
 ```
-```
 bash
 sudo pacman -S python-pywal hyprpaper waybar wofi dunst kitty \
     brightnessctl pavucontrol ttf-jetbrains-mono-nerd \
@@ -23,15 +22,11 @@ sudo pacman -S python-pywal hyprpaper waybar wofi dunst kitty \
     networkmanager inotify-tools
 yay -S waypaper
 ```
-```
-
 
 ## Apply dotfiles
-```
 ```
 bash
 git clone https://github.com/fe1j4o/dotfiles.git ~/dotfiles
 cd ~/dotfiles
 bash install.sh
-```
 ```
